@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "bootstrap-3": {},
+    "sugarjs": {},
+    "observatory": {},
+    "event-hooks": {},
+    "roles": {},
+    "router": {}
+  }
+}

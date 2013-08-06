@@ -1,0 +1,28 @@
+<head>
+  <title>cstmr</title>
+</head>
+
+<body>
+  {{> body}}
+</body>
+
+<template name="body">
+  {{loginButtons}}
+
+  {{renderPage}}
+
+  {{>logs_bootstrap}}
+</template>
+
+<template name="customer_listing">
+  <div class="customer_listing">
+    <a href="/customers/{{_id}}" class="customer_name" customer_id="{{_id}}">{{name}}</a>
+  </div>
+</template>
+
+<template name="customer_view">
+  <div class="customer_wrapper">
+    <div class="customer_name" customer_id="{{customer._id}}" contenteditable="true">{{customer.name}}</div>
+    <input type="button" class="btn btn-info customer_save_button hide" customer_id="{{customer._id}}" value="Save" />
+  </div>
+</template>

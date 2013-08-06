@@ -1,0 +1,55 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "bootstrap-3": {},
+      "sugarjs": {},
+      "observatory": {},
+      "event-hooks": {},
+      "roles": {},
+      "router": {}
+    },
+    "packages": {
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v0.2.8",
+        "commit": "8026f0beaa0274849adfcf8c53d919216b5e06ba"
+      },
+      "sugarjs": {
+        "git": "https://github.com/crapthings/meteor-sugarjs.git",
+        "tag": "v1.3.9.1",
+        "commit": "604ecae59d7058be315ea925ef58e37190d69973"
+      },
+      "observatory": {
+        "git": "https://github.com/jhoxray/observatory.git",
+        "tag": "v0.2.1",
+        "commit": "3a3302c086fc9e9c59adf9dfc01e88d746f6c501"
+      },
+      "event-hooks": {
+        "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
+        "tag": "v1.4.0",
+        "commit": "8d0daf1b84622104d3bcdd99fcf791cd08d3a222"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.0.5",
+        "commit": "a6e0ce33f8dc69a816165c458b138c2acb30ad0e"
+      },
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.5.3",
+        "commit": "7bd3a1bdd1099625bb8b49406d9b8f961d6f4a17"
+      },
+      "observatory-apollo": {
+        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
+        "branch": "master",
+        "commit": "b754bb265ef3df07a406f2b342a169e951e6caee"
+      },
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
+      }
+    }
+  }
+}
